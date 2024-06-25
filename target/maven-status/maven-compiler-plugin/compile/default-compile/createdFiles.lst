@@ -1,1 +1,6 @@
-com\yusuf\WeatherService.class
+com\yusuf\entity\WeatherResults.class
+com\yusuf\services\GeoLocationService.class
+com\yusuf\entity\GeoLocation.class
+com\yusuf\entity\WeatherResult.class
+com\yusuf\entity\GeoLocation$Location.class
+com\yusuf\controllers\WeatherDetectionController.class
