@@ -26,7 +26,7 @@ public class WeatherDetectionController {
     @Path("/2")
     @Produces(MediaType.APPLICATION_JSON)
     public String getTemperature2() {
-        return "{\"temperature\":\"40 degrees\"}";
+        return "{\"temperature\":\"60 degrees\"}";
     }
 
     @GET
@@ -48,11 +48,11 @@ public class WeatherDetectionController {
     @GET
     @Path("/tempareture")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getTemparatureByCity() {
-        System.out.println("   60 WeatherDetectionController.java ");
+    public Response getTemparatureByCity(@QueryParam("latitude") String latitude, @QueryParam("longitude") String longitude) {
+        System.out.println("   60 WeatherDetectionController.java latitude "+latitude+"  longitude "+longitude);
         Response temparatureForCity = null;
         try {
-             temparatureForCity = apiService.getTemparatureForCity(52.52, 13.419998);
+             temparatureForCity = apiService.getTemparatureForCity(latitude, longitude);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (InterruptedException e) {
