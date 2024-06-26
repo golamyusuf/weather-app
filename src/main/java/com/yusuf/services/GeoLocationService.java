@@ -71,7 +71,9 @@ public class GeoLocationService {
 	}
 
 	private String buildUrlForTemparature(double latitude, double longitude) {
-		return String.format("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s&hourly=temperature_2m,rain,wind_speed_10m",
-				latitude, longitude);
+		String formattedLatitude = String.format("%.6f", latitude);
+		String formattedLongitude = String.format("%.6f", longitude);
+		return String.format("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s&hourly=temperature_2m,rain,wind_speed_10m&forecast_days=1",
+				formattedLatitude, formattedLongitude);
 	}
 }
