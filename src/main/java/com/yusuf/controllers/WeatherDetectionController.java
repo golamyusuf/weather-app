@@ -26,7 +26,7 @@ public class WeatherDetectionController {
     @Path("/2")
     @Produces(MediaType.APPLICATION_JSON)
     public String getTemperature2() {
-        return "{\"temperature\":\"60 degrees\"}";
+        return "{\"temperature\":\"90 degrees\"}";
     }
 
     @GET

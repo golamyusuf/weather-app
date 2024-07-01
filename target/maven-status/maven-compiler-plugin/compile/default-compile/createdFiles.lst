@@ -1,7 +1,10 @@
 com\yusuf\services\GeoLocationService.class
 com\yusuf\entity\GeoLocation.class
+com\yusuf\controllers\UserController.class
+com\yusuf\services\UserService.class
 com\yusuf\controllers\WeatherDetectionController.class
 com\yusuf\entity\Hourly.class
 com\yusuf\entity\WeatherResult.class
 com\yusuf\entity\GeoLocation$Location.class
 com\yusuf\entity\HourlyUnits.class
+com\yusuf\entity\User.class

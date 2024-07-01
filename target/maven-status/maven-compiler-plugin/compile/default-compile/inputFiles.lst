@@ -1,6 +1,9 @@
-C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\HourlyUnits.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\controllers\UserController.java
 C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\controllers\WeatherDetectionController.java
-C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\WeatherResult.java
-C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\Hourly.java
-C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\services\GeoLocationService.java
 C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\GeoLocation.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\Hourly.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\HourlyUnits.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\User.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\entity\WeatherResult.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\services\GeoLocationService.java
+C:\Users\user\eclipse-workspace\weather-app\src\main\java\com\yusuf\services\UserService.java
